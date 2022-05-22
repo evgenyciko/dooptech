@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+html,
+body {
+    background-color: black;
+    width: 100%;
+    overflow-y: visible;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*  header section  */
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(206,206,206,255);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(23,23,23,255);
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.nav-link:hover,
+#logo:hover {
+    color: rgba(179,225,13,255) !important;
+}
+
+.header-info {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
+    height: 90%;
+    color: white;
+    text-align: left;
+}
+
+.header-tittle-info {
+    width: 100%;
+    color: rgba(33,33,31,255);
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 90px;
+    letter-spacing: 4px;
+}
+
+.header-mini-info {
+    color: rgba(23,23,23,255);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: normal;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+}
+
+
+
+.header-info-button:hover {
+    background-color: #E0A800;
+}
+
+.header-scroll-link-wrapper {
+    text-decoration: none;
+    color: white;
+}
+
+/*  end header section  */
+
+/*  service  */
+
+.service {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(136,136,136,255);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.service-tittle-info {
+    color: rgba(23,23,23,255);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding-top: 100px;
+}
+
+.service-mini-info {
+    color: rgba(179,225,13,255);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+/*  end service  */
