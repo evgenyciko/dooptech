@@ -11,7 +11,7 @@
     <!-- header  -->
 
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark nav">
           <div class="container-fluid">
             <a class="navbar-brand ml-5 px-5" href="/" aria-label="Logo Binar-Challenge">
               <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -95,17 +95,144 @@
                 <h3 class="service-mini-info">OUR SERVICES FOR CLIENTS</h3>
               </div>
             </div>
-            <div class="row">
-              <div class="card" style="width: 20rem; height: 20rem;">
-                <div class="card-body">
-                  <h5 class="card-title">Lorem ipsum</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                </div>
+          <div class="row test1">
+              <!-- section about us  -->
+            <div class="col-lg-3 test">
+              <div class="card1">
+		            <a href="#" class="card__link">
+                  <!-- Media -->
+                  <div class="row">
+                    <div class="card__media">
+                      <img src="./assets/rockpaperstrategy-1600.jpg" class="img-fluid">
+                    </div>
+                  </div>
+                  <!-- Header -->
+                  <div class="row">
+                    <div class="card__header">
+                      <h3 class="card__header-title">Title of Card</h3>
+                      <p class="card__header-meta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="card__header-icon">
+                        <svg viewbox="0 0 28 25">
+                          <path fill="#fff" d="M13.145 2.13l1.94-1.867 12.178 12-12.178 12-1.94-1.867 8.931-8.8H.737V10.93h21.339z"/>
+                        </svg>
+                      </div>
+                  </div>
+                </a>
               </div>
             </div>
-        </div>
+            
+              <!-- section about us  -->
+            <div class="col-lg-3 test">
+              <div class="card1">
+		            <a href="#" class="card__link">
+                  <!-- Media -->
+                  <div class="row">
+                    <div class="card__media">
+                      <img src="./assets/rockpaperstrategy-1600.jpg" class="img-fluid">
+                    </div>
+                  </div>
+                  <!-- Header -->
+                  <div class="row">
+                    <div class="card__header">
+                      <h3 class="card__header-title">Title of Card</h3>
+                      <p class="card__header-meta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="card__header-icon">
+                        <svg viewbox="0 0 28 25">
+                          <path fill="#fff" d="M13.145 2.13l1.94-1.867 12.178 12-12.178 12-1.94-1.867 8.931-8.8H.737V10.93h21.339z"/>
+                        </svg>
+                      </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+              <!-- section about us  -->
+            <div class="col-lg-3 test">
+              <div class="card1">
+		            <a href="#" class="card__link">
+                  <!-- Media -->
+                  <div class="row">
+                    <div class="card__media">
+                      <img src="./assets/rockpaperstrategy-1600.jpg" class="img-fluid">
+                    </div>
+                  </div>
+                  <!-- Header -->
+                  <div class="row">
+                    <div class="card__header">
+                      <h3 class="card__header-title">Title of Card</h3>
+                      <p class="card__header-meta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="card__header-icon">
+                        <svg viewbox="0 0 28 25">
+                          <path fill="#fff" d="M13.145 2.13l1.94-1.867 12.178 12-12.178 12-1.94-1.867 8.931-8.8H.737V10.93h21.339z"/>
+                        </svg>
+                      </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+              <!-- section about us  -->
+            <div class="col-lg-3 test">
+              <div class="card1">
+		            <a href="#" class="card__link">
+                  <!-- Media -->
+                  <div class="row">
+                    <div class="card__media">
+                      <img src="./assets/rockpaperstrategy-1600.jpg" class="img-fluid">
+                    </div>
+                  </div>
+                  <!-- Header -->
+                  <div class="row">
+                    <div class="card__header">
+                      <h3 class="card__header-title">Title of Card</h3>
+                      <p class="card__header-meta">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="card__header-icon">
+                        <svg viewbox="0 0 28 25">
+                          <path fill="#fff" d="M13.145 2.13l1.94-1.867 12.178 12-12.178 12-1.94-1.867 8.931-8.8H.737V10.93h21.339z"/>
+                        </svg>
+                      </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+              
+              
+          </div>
+      </div>
     </section>
+    <!-- card  -->
     <!-- end section about us  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
+  <script>
+  $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+    </script>
 </html>
