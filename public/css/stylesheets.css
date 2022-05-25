@@ -19,7 +19,7 @@ html {
 .header {
     width: 100%;
     min-height: 100vh;
-    background-color: rgba(206,206,206,255);
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -105,128 +105,277 @@ h3 {
 
 /*  end header section  */
 
-/*  service  */
+/* service */
+
+.page-service {
+  width: 100%;
+  max-height: max-content;
+  min-height: 100vh;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5%;
+}
 
 .service {
+  text-align: center;
+}
+
+.service-us {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.service-us h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.service-us p {
+  font-size: 18px;
+  color: rgb(136, 139, 143);
+  font-weight: 200;
+
+}
+
+/* Desktop Ver why */
+
+@media (min-width: 992px) {
+  .service-us {
+    text-align: left;
+  }
+
+  .service-us h3 {
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+
+  .service-us p {
+    font-size: 18px;
+    color: rgb(136, 139, 143);
+    font-weight: 200;
+  }
+}
+
+/*  why  */
+
+.page-why {
+  width: 100%;
+  max-height: max-content;
+  min-height: 100vh;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  padding-top: 5%;
+}
+
+.why {
+text-align: center;
+}
+
+.why-us {
+margin-top: 50px;
+text-align: center;
+}
+
+.why-us h3 {
+font-size: 52px;
+font-weight: 200;
+text-transform: uppercase;
+}
+
+.why-us p {
+font-size: 18px;
+color: rgb(136, 139, 143);
+font-weight: 200;
+
+}
+
+
+/* Desktop Ver why */
+
+@media (min-width: 992px) {
+.why-us {
+  text-align: left;
+}
+
+.why-us h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.why-us p {
+  font-size: 18px;
+  color: rgb(136, 139, 143);
+  font-weight: 200;
+}
+}
+
+/*  about us  */
+
+.page-about {
     width: 100%;
+    max-height: max-content;
     min-height: 100vh;
-    background-color: rgba(136,136,136,255);
+    background-color: #ffffff;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    padding-top: 5%;
 }
 
-.service-tittle-info {
-    color: rgba(23,23,23,255);
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: normal;
-    font-family: 'Bebas Neue', Helvetica, sans-serif;
-    letter-spacing: 1px;
-    line-height: 40px;
-    padding-top: 100px;
+.about {
+  text-align: center;
 }
 
-.service-mini-info {
-    color: rgba(179,225,13,255);
-    font-size: 24px;
-    font-style: normal;
-    font-weight: normal;
-    font-family: 'Bebas Neue', Helvetica, sans-serif;
-    letter-spacing: 1px;
-    line-height: 40px;
+.about-us {
+  margin-top: 50px;
+  text-align: center;
 }
 
+.about-us h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.about-us p {
+  font-size: 18px;
+  color: rgb(136, 139, 143);
+  font-weight: 200;
+
+}
+
+
+/* Desktop Ver about us */
+
+@media (min-width: 992px) {
+  .about-us {
+    text-align: left;
+  }
+
+  .about-us h3 {
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+
+  .about-us p {
+    font-size: 18px;
+    color: rgb(136, 139, 143);
+    font-weight: 200;
+  }
+}
+
+/* card */
 
 /*card example */
 
 @-webkit-keyframes fadeInScale {
-    0% {
-      opacity: 0;
-      transform: scale(0) translateY(50%);
-    }
-    90% {
-      transform: scale(1.05);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1) translateY(0);
-    }
-  }
-  
-  @keyframes fadeInScale {
-    0% {
-      opacity: 0;
-      transform: scale(0) translateY(50%);
-    }
-    90% {
-      transform: scale(1.05);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1) translateY(0);
-    }
-  }
-  
-  .card1 {
-    position: relative;
-    width: 18em;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    background-color: #292929;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .card1:hover {
-    box-shadow: 0 10px 20px 10px rgba(180,225,16, 0.2);
-  }
-  
-  .card__link {
-    display: block;
-    padding: 1em;
-    text-decoration: none;
-  }
-  
-  .card__media {
-    padding-bottom: 2em;
-  }
-  
-  .card__header {
-    position: relative;
-  }
-  
-  .card__header-title {
-    margin: 0 0 0.25em;
-    color: white;
-  }
-  
-  .card__header-meta {
-    margin: 0;
-    color: #999;
-  }
-  
-  .card__header-icon {
+  0% {
     opacity: 0;
-    position: relative;
-    right: 0;
-    top: 50%;
-    margin-top: 1em;
-    transform: translateX(-20%);
-    width: 3.5em;
-    height: 3.5em;
-    transition: all 0.3s ease-in-out;
+    transform: scale(0) translateY(50%);
   }
-  .card1:hover .card__header-icon {
+  90% {
+    transform: scale(1.05);
+  }
+  100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: scale(1) translateY(0);
   }
-
-  nav.black {
-    background: #000;
 }
 
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0) translateY(50%);
+  }
+  90% {
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
 
+.page-card {
+  width: 100%;
+  max-height: max-content;
+  min-height: 100vh;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5%;
+}
 
-/*  end service  */
+.card1 {
+  position: static;
+  width: 18em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #292929;
+  transition: all 0.3s ease-in-out;
+}
 
-/*  about us  */
+.card1:hover {
+  box-shadow: 0 10px 20px 10px rgba(180,225,16, 0.2);
+}
+
+.card__link {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.card__media {
+  padding-bottom: 2em;
+}
+
+.card__header {
+  position: static;
+}
+
+.card__header-title {
+  margin: 0 0 0.25em;
+  color: white;
+}
+
+.card__header-meta {
+  margin: 0;
+  color: #999;
+}
+
+.card__header-icon {
+  opacity: 0;
+  position: relative;
+  right: 0;
+  top: 50%;
+  margin-top: 1em;
+  transform: translateX(-20%);
+  width: 3.5em;
+  height: 3.5em;
+  transition: all 0.3s ease-in-out;
+}
+.card1:hover .card__header-icon {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* footer */
+
+.page-footer {
+  width: 100%;
+  padding-top: 30px;
+  max-height: max-content;
+  background-color: #000000; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-footer .container-fluid {
+  margin: 20px !important;
+}
+
+.bawah {
+  margin-top: 20px;
+}
