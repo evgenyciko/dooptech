@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('landingpage');
+    return view('welcome');
 
 });
 
@@ -25,7 +25,10 @@ Route::get('test', function () {
 });
 
 
+Route::get('landing', function () {
+  return view('landingpage');
 
+});
 
 
 Route::group(['middleware' => ['role:admin']], function () {
