@@ -74,7 +74,7 @@
     <div class="container header-info">
       <div class="row">
         <div class="col-md-6">
-          <img src="{{asset('images/logo_doop.png')}}" class="img-fluid float-left" alt="" srcset="" width="500" height="500">
+          <img src="./images/logo_doop.png" class="img-fluid float-left" alt="" srcset="" width="500" height="500">
         </div>
         <div class="col-md-6">
           <h3 class="header-mini-info">Doopstech</h3>
@@ -101,6 +101,7 @@
                 </div>
                 <div class="profile-description">
                   <h3>Learning</h3>
+                  <div class="postcard__bar"></div>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
                 </div>
             </div>
