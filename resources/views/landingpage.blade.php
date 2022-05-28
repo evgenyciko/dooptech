@@ -55,12 +55,12 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <img src="./assets/twitch.svg"> <span class="d-lg-none ml-3">Steam</span>
+                <img src="./assets/twitter.svg"> <span class="d-lg-none ml-3">Steam</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                <img src="./assets/twitch.svg" alt="" srcset="">
+                <img src="./assets/twitter.svg" alt="" srcset="">
                 <span class="d-lg-none ml-3">
                   Xbox
                 </span>
@@ -113,7 +113,9 @@
                 <div class="profile-name">
                 </div>
                 <div class="profile-description">
-                  <h3>Blog</h3>
+                  <div class="test">
+                    <a href="#"><h3>Blog</h3></a>
+                  </div>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
                 </div>
             </div>
@@ -140,7 +142,7 @@
   <section class="blog">
     <div class="container">
       <div class="container py-4">
-        <div class="row">
+        <div class="row blog_title">
           <h1>Our Blog</h1>
         </div>
           <article class="postcard dark green">
@@ -206,10 +208,85 @@
         <div class="col-lg-6">
           <img src="https://ibixion.com/wp-content/uploads/2020/04/Hacker-II-1.jpg" class="img-fluid">
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-5 about-title-content">
           <h3>You work like at home</h3>
           <p>Bekerja dengan suasana hati yang lebih asik dan mempelajari hal baru setiap harinya.</p>
-          <a href="#" class="btn btn-primary tombol">Gallery</a>
+        </div>
+      </div>
+      <div class="row pt-5 mt-5 pb-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-lg-6">
+              <!-- Section Heading-->
+              <div class="section_heading text-center about-us fadeInUp mb-5" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <h3>Our Creative <span> Team</span></h3>
+                <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing page.</p>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row ms-auto d-flex">
+            <!-- Single Advisor-->
+            <div class="col d-flex align-items-center">
+              <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <!-- Team Thumb-->
+                <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                  <!-- Social Info-->
+                  <div class="social-info"><a href="#"><img src="./assets/twitter.svg"> <span class="d-lg-none ml-3"></a><a href="#"><img src="./assets/twitter.svg"> <span class="d-lg-none ml-3"></i></a><a href="#"><img src="./assets/twitter.svg"> <span class="d-lg-none ml-3"></a></div>
+                </div>
+                <!-- Team Details-->
+                <div class="single_advisor_details_info">
+                  <h6>UCEN ANJING</h6>
+                  <p class="designation">Founder &amp; CEO</p>
+                </div>
+              </div>
+            </div>
+            <!-- Single Advisor-->
+            <div class="col d-flex">
+              <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <!-- Team Thumb-->
+                <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="">
+                  <!-- Social Info-->
+                  <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+                </div>
+                <!-- Team Details-->
+                <div class="single_advisor_details_info">
+                  <h6>UUK GAGAH</h6>
+                  <p class="designation">Front End</p>
+                </div>
+              </div>
+            </div>
+            <!-- Single Advisor-->
+            <div class="col d-flex align-items-center">
+              <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                <!-- Team Thumb-->
+                <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="">
+                  <!-- Social Info-->
+                  <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+                </div>
+                <!-- Team Details-->
+                <div class="single_advisor_details_info">
+                  <h6>JEKI</h6>
+                  <p class="designation">TUKANG GAMBAR</p>
+                </div>
+              </div>
+            </div>
+            <!-- Single Advisor-->
+            <div class="col d-flex align-items-center">
+              <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                <!-- Team Thumb-->
+                <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="">
+                  <!-- Social Info-->
+                  <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+                </div>
+                <!-- Team Details-->
+                <div class="single_advisor_details_info">
+                  <h6>ACUN</h6>
+                  <p class="designation">UI/UX</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
