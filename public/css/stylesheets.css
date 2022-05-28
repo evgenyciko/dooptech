@@ -651,6 +651,7 @@ font-weight: 200;
 .single_advisor_profile {
     position: relative;
     margin-bottom: 50px;
+    width: 15rem;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     z-index: 1;
