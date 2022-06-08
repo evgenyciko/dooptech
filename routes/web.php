@@ -43,6 +43,8 @@ Route::group(['middleware' => ['role:admin']], function () {
   Route::get('hapus_sementara','PostController@hapus_sementara')->name('hapus_sementara');
   Route::post('restore','PostController@restore')->name('restore');
   Route::post('kill','PostController@kill')->name('kill');
+  Route::post('ckeditor/upload','PostController@upload')->name('ckeditor/upload');
+  
 
   Route::get('category','CategoryController@index')->name('category');
   Route::post('create_category','CategoryController@store')->name('create_category');
@@ -74,6 +76,7 @@ Route::post('group-members','MessageGroupController@store')->name('group-members
 Route::get('message-groups.show/{group_id}','MessageGroupController@show')->name('message-groups.show');
 
 Route::get('delete-group/{id}','MessageGroupController@destroy')->name('delete-group');
+
 
 
 
