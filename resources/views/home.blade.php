@@ -126,7 +126,7 @@
     let user_id = '{{ auth()->user()->id}}';
     let ip_address = '127.0.0.1';
     let socket_port = '8005';
-    let socket = io('https://86ae-125-160-112-179.ngrok.io');
+    let socket = io(ip_address+':'+socket_port);
 
 
 
