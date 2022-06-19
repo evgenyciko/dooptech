@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.accordion {
+    width: auto !important;
+}
+
+.test {
+    margin-top: 10px;
+}
+
+.body-blog ul li {
+display: inline-block !important;
+}
+
+.body-blog .icon {
+    margin-left: -32px !important;
+}
+
+.body-blog span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    /* letter-spacing: 0.05em;
+    margin: 2em 0 0 0; */
+  }
+
+  .body-blog ul li span {
+    margin-left: 5px;
+    color: black;
+  }
+
+  .body-blog a {
+    text-decoration: none !important;
+  }
+
+@media (min-width: 576px) {
+  .test {
+      margin: auto;
+  }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* untility */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #009999 !important;
+    color: #f9f9f9 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0!important;
+  }
+  
+  
+  .tombol1 {
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: rgba(206,206,206,255)!important;
+    color: rgba(33,33,31,255) !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0!important;
+  }
+  
+  h1 {
+  font-family: 'Poppins';
+  font-size: 48px;
+  font-weight: bold;
+  }
+  
+  h2 {
+  font-family: 'Poppins';
+  font-size: 32px;
+  font-weight: bold;
+  }
+  
+  h3 {
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-weight: normal;
+  }
+  
+  p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  }
+
+  /* blog */
+
+  .blog {
+      padding-top: 150px;
+  }
+
+ .accordion {
+     width: 20rem;
+ }

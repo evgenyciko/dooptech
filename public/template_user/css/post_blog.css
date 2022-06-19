@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.blog_post {
+  padding-top: 120px;
+}
+
+.util {
+  
+}
+
+.util ul li {
+  display: inline-block !important;
+}  
+
+.util .icon {
+  margin-left: -32px !important;
+  text-decoration: none;
+}
+
+.icon i {
+  padding-right: 5px !important;
+  text-decoration: none;
+}
+
+.icon a {
+  text-decoration: none;
+}
+
+/* asdasd */
+
+.blog-content {
+
+}
+
+.blog-thumbnail {
+  height: 100%;
+}
+
+.top-konten ul li {
+  display: inline-block !important;
+}
+
+.top-konten .share {
+  margin-left: -32px !important;
+  text-decoration: none;
+}
+
+.share i {
+  padding-right: 10px;
+}
+
+.share {
+
+}
+
+.tag {
+  background-color: rgb(182, 182, 182);
+  border-radius: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/*  */
+
+.more-post {
+  min-height: 200px;
+  background-color: rgb(255, 255, 255);
+  /* margin: 10px; */
+  width: auto !important;
+  max-width: 300px;
+}
+/* 
+.thumbnail-more {
+  background-size: cover;
+} */
+
+/* komen orang */
+
+.card-komen {
+  background-color: rgb(235, 235, 235);
+}
+
+
+/* untility */
+
+.tombol {
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #009999 !important;
+  color: #f9f9f9 !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0!important;
+}
+
+
+.tombol1 {
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: rgba(206,206,206,255)!important;
+  color: rgba(33,33,31,255) !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0!important;
+}
+
+h1 {
+font-family: 'Poppins';
+font-size: 48px;
+font-weight: bold;
+}
+
+h2 {
+font-family: 'Poppins';
+font-size: 32px;
+font-weight: bold;
+}
+
+h3 {
+font-family: 'Poppins';
+font-size: 24px;
+font-weight: normal;
+}
+
+p {
+font-family: 'Nunito Sans', sans-serif;
+font-weight: 400;
+font-size: 16px;
+}
+
+
+
+
+
+/* desktop */
+
+.post_blog {
+  padding-top: 150px;
+}
